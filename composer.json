@@ -1,0 +1,19 @@
+{
+    "name": "andrekeher/wpdp-submenu-page",
+    "description": "Helps in a new submenu page creation in Wordpress.",
+    "homepage": "https://github.com/andrekeher/wpdp-submenu-page",
+	"keywords": [
+        "wordpress",
+        "submenu"
+    ],
+	"type": "plugin",
+    "license": "MIT",
+    "require": {
+		"andrekeher/wpdp-menu-page": "dev-master"
+	},
+	"autoload": {
+		"psr-4": {
+			"AndreKeher\\WPDP\\" : "src/"
+		}
+	}
+}
