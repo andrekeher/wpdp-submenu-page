@@ -9,7 +9,7 @@
 	"type": "plugin",
     "license": "MIT",
     "require": {
-		"andrekeher/wpdp-menu-page": "dev-master"
+		"andrekeher/wpdp-menu-page": "^1.0"
 	},
 	"autoload": {
 		"psr-4": {

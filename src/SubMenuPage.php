@@ -13,10 +13,9 @@ class SubMenuPage extends MenuPage
         $menuTitle,
         $menuSlug,
         $capability = 'manage_options',
-        $iconUrl = '',
         $position = null
     ) {
         $this->parentSlug = $parentSlug;
-        parent::__construct($pageTitle, $menuTitle, $menuSlug, $capability, $iconUrl, $position);
+        parent::__construct($pageTitle, $menuTitle, $menuSlug, $capability, '', $position);
     }
 }
